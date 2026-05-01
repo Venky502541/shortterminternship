@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    </head>
+    <body>
+        <h1>registration</h1>
+        <form action="index.html">
+            Name<input type="text" placeholder="enter your name" required><br><br>
+            Email<input type="email" placeholder="XXXX@gmail.com"><br><br>
+            password<input type="password"><br><br>
+            phn no<input type="tel" pattern="[0-9]{10}"><br><br>
+            gender<input type="radio" name="gender">Male<br><br>
+            <input type="radio" name="gender">Female<br><br>
+            Skills<input type="checkbox" name="skills">python<br><br>
+            <input type="checkbox" name="skills">html<br><br>
+            <input type="checkbox" name="skills">JAVA<br><br>
+            <input type="checkbox" name="skills">CSS<br><br>
+            <input type="checkbox" name="skills">MYSQL<br><br>
+            DOB<input type="date"><br><br>
+            time<input type="time"><br><br>
+State<select name="states">
+<option>AP</option>
+<option>TS</option>
+<option>KA</option>
+<option>MH</option>
+<option>UP</option>
+<option>UK</option>
+</select><br><br>
+skills<select multiple="4">
+    <option>html</option>
+<option>css</option>
+<option>js</option>
+<option>java</option>
+<option>python</option>
+<option>mysql</option>
+</select><br><br>
+
+college<input list="clg" type="list">
+<datalist class="clg" name="clg" id="clg">
+    <option>Nalanda degree college</option>
+    <option>pbs</option>
+    <option>sdmsk</option>
+    <option>gowtham degree college</option>
+    <option>kbn</option>
+    <option>gandhiji mahila kalasala</option>
+    <option>prabhas degree</option>
+    <option>krishna veni</option>
+    <option>nri</option>
+    </datalist><br><br>
+    resume<input type="file" accept="image/*"><br><br>
+    description<textarea></textarea>
+            <input type="submit" value="register">    
+        </form>
+    </body>
+    </html>
